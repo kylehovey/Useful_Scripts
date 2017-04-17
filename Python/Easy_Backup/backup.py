@@ -36,7 +36,8 @@ if __name__ == "__main__":
 
     # Unpack options
     storage_dir = os.path.expanduser(config["storage_dir"])
-    name = storage_dir + config["label"] + tstamp + ".zip"
+    backup_dir = os.path.expanduser(config["backup_dir"])
+    name = backup_dir + config["label"] + tstamp + ".zip"
     files = config["files"]
     directories = config["directories"]
     print "Built Options"

@@ -1,11 +1,22 @@
 {
-  "storage_dir" : "~/Desktop/",
+  "storage_dir" : "~/srv/minecraft/spigot/redstone/server/",
+  "backup_dir" : "~/srv/minecraft/spigot/redstone/backup/",
   "label" : "mc-redstone-bak",
   "files" : [
-    "fileA.txt",
-    "fileC.txt"
+    "banned-ips.json",
+    "banned-players.json",
+    "bukkit.yml",
+    "commands.yml",
+    "ops.json",
+    "permissions.yml",
+    "server.properties",
+    "spigot.yml",
+    "whitelist.json"
   ],
   "directories" : [
-    "dirA/Another"
+    "redstone",
+    "redstone_nether",
+    "redstone_the_end",
+    "plugins"
   ]
 }
