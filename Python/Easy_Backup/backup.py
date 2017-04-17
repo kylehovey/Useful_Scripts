@@ -32,7 +32,7 @@ if __name__ == "__main__":
     print "Loaded Config"
 
     # Get timestamp
-    tstamp = datetime.now().strftime("-%m-%Y-%H:%M")
+    tstamp = datetime.now().strftime("-%m-%d-%Y-%H:%M")
 
     # Unpack options
     storage_dir = os.path.expanduser(config["storage_dir"])
