@@ -1,0 +1,11 @@
+{
+  "storage_dir" : "~/Desktop/",
+  "label" : "mc-redstone-bak",
+  "files" : [
+    "fileA.txt",
+    "fileC.txt"
+  ],
+  "directories" : [
+    "dirA/Another"
+  ]
+}
